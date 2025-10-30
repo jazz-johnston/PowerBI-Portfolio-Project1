@@ -1,29 +1,21 @@
-# logistics-operations
-Operational &amp; Financial Performance Dashboard for Logistics Operations (2023–2024)
-📘 Project Overview
+Project name: **Operational & Financial Performance Dashboard**
 
-This Power BI report provides a comprehensive overview of the company’s financial and operational performance between January 2023 and December 2024.
-It tracks revenue growth, profitability, service reliability, and delivery efficiency — enabling data-driven decisions across logistics operations.
+Tool: Power BI
 
-🎯 Objective
+Data: Synthetic dataset (Transactions 2023–2024)
 
-To monitor and analyze key KPIs across finance, operations, and customer service, focusing on:
-Revenue and margin trends
-Delivery performance and lead times
-On-time shipment improvement
-Variance to plan and operational efficiency
+Author: Jazz Johnston
 
-🧩 Key Features
+Company: The company provides transportation and logistics services for the energy and mining sectors. It handles shipments of oil products, raw minerals, and industrial equipment across multiple regions.
+Transportation is done through a multi-modal network — rail and sea for long-distance routes, trucks for regional deliveries, and air freight for urgent or high-value cargo.
 
-Multi-page Power BI report including:
-Overview: Executive summary with core KPIs and trends
-Financials: Revenue, gross margin, and variance analysis
-Service: Delivery reliability, OTIF %, and delay root-cause breakdown
-Trends: Year-over-year patterns in revenue, OTIF %, and lead time
-Interactive filters by Region, Product Category, and Customer Segment
-Measures built using advanced DAX for rolling periods, YoY comparison, and statistical control limits
+▫️ 1. Reports goal: The report provides a comprehensive view of financial and operational performance for the logistics division.
+It enables management to monitor revenue growth, profitability, delivery efficiency, and service reliability over time.
+The dashboard supports data-driven decision-making by consolidating key KPIs across finance, operations, and customer service.
 
-📊Key metrics
+▫️ 2. Data Sources: Synthetic transaction data was used (Revenue, Plan Revenue, Cost, OTIF, Lead Time, Segments, Regions, Categories).
+
+▫️ 3. Key metrics
 • Revenue & Gross Margin (%) – measure overall business performance and profitability.
 • OTIF % (On-Time In-Full) – tracks delivery reliability and service quality.
 • Lead Time (days) – measures average shipment duration and operational efficiency.
@@ -31,26 +23,30 @@ Measures built using advanced DAX for rolling periods, YoY comparison, and stati
 • On-Time Improvement % – shows year-over-year progress in delivery performance.
 • Volume & Total Shipments – assess operational throughput and logistics capacity.
 
-⚙️ Tools & Methods
+▫️ 4. Key insights
+• In 2024, GM% consistently exceeded 50%, despite a slight decline in revenue.
+• Average Lead Time increased by 0.2 days, which decreased OTIF% by 0.2 percentage points.
+• The Chemicals category and the West region account for the largest contribution to delays.
 
-Power BI Desktop for data modeling, DAX measures, and report design
-Excel for initial data cleaning and export of model metadata
-DAX for KPI calculations (YoY, rolling 12-month, variance, OTIF metrics)
-Data Model: Star schema with fact table Transactions and dimension tables for Date, Customer, Product, and Region
+▫️ 5. Tools and Methods
+Power BI (DAX formulas, cross-page filtering, decomposition tree, key influencers).
+Visualizations: KPI cards, Combo Charts, Treemap, Waterfall, Scatter, Decomposition Tree.
 
-💡 Key Insights
+▫️ 6. Screenshots and page descriptions
 
-Gross Margin remained stable at ~50%, indicating consistent profitability
-Average Lead Time slightly increased, reducing OTIF % performance
-Delays are concentrated in the Chemicals category and West region
-Revenue growth driven primarily by the Enterprise segment
+Overview: A general overview of key KPIs for the period.
+<img width="975" height="555" alt="image" src="https://github.com/user-attachments/assets/18013c5a-0a73-4672-9921-338d87047050" />
 
-📈 Conclusion
 
-The dashboard consolidates all key KPIs into one interactive view, providing leadership with actionable insights into both financial results and operational performance.
-It supports strategic planning, service reliability improvement, and data-driven decision-making across logistics operations.
+Financials: Analysis of revenue, expenses, and margins.
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/96aa3ecd-b904-4a7e-b5bf-16ab5a7d500a" />
 
-📂 Files Included
+Service: Delivery and reliability indicators.
+<img width="975" height="551" alt="image" src="https://github.com/user-attachments/assets/d68b158b-029a-458f-a8b9-83371a539768" />
 
-Operational_Performance_Report.pbix – Power BI report file
-Project_Documentation.pdf – project summary with visuals and explanations
+Trends: Monthly performance and comparison with plan.
+<img width="975" height="556" alt="image" src="https://github.com/user-attachments/assets/a6b3aef2-f16c-4df7-898c-c1fbc839a4e7" />
+
+▫️ 7. Conclusion
+The report provides a complete picture of financial and operational performance and can be used by management to make decisions on supply planning and optimization.
+
