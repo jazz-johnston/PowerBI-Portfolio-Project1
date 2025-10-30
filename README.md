@@ -9,6 +9,7 @@ Author: Jazz Johnston
 Company: The company provides transportation and logistics services for the energy and mining sectors. It handles shipments of oil products, raw minerals, and industrial equipment across multiple regions.
 Transportation is done through a multi-modal network — rail and sea for long-distance routes, trucks for regional deliveries, and air freight for urgent or high-value cargo.
 
+
 ▫️ 1. Reports goal: The report provides a comprehensive view of financial and operational performance for the logistics division.
 It enables management to monitor revenue growth, profitability, delivery efficiency, and service reliability over time.
 The dashboard supports data-driven decision-making by consolidating key KPIs across finance, operations, and customer service.
@@ -49,4 +50,11 @@ Trends: Monthly performance and comparison with plan.
 
 ▫️ 7. Conclusion
 The report provides a complete picture of financial and operational performance and can be used by management to make decisions on supply planning and optimization.
+
+
+Files Included: 
+
+Operational_Performance_Report.pbix – Power BI report file.
+
+Project_Documentation.pdf – project summary with visuals and explanations.
 
